@@ -4,14 +4,14 @@
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
+#*.py[cod]
+#*$py.class
 
 # C extensions
-*.so
+#*.so
 
 # Distribution / packaging
-.Python
+#.Python
 build/
 develop-eggs/
 dist/
@@ -37,7 +37,7 @@ MANIFEST
 *.spec
 
 # Installer logs
-pip-log.txt
+#pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
@@ -84,7 +84,7 @@ target/
 
 # IPython
 profile_default/
-ipython_config.py
+#ipython_config.py
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
