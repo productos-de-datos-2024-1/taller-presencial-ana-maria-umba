@@ -11,7 +11,7 @@
 #
 # La imagen es creada con:
 # 
-# $ docker build --tag=jdvelasq/api-client:0.1 . 
+# $ docker build --tag=amumbal/api-client:0.1 . 
 #
 # Las images actuales se pueden listar con:
 #
@@ -19,7 +19,9 @@
 #
 # Para lanzar la aplicación web que consume el servicio se ejecuta:
 #
-# $ docker run --network=mynetwork --rm -it --name=api-client -p 5002:5000 -v "$PWD"/datalake:/datalake jdvelasq/api-client:0.1
+#$ docker run --network=mynetwork --rm -it --name=api-client -p 5002:5000 -v "%cd%/datalake:/datalake" amumbal/api-client:0.1
+
+# $ docker run --network=mynetwork --rm -it --name=api-client -p 5002:5000 -v "$PWD"/datalake:/datalake amumbal/api-client:0.1
 #
 
 # Definición de la imagen base
